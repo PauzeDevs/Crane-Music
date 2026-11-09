@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- launcher foreground, icon new - transparent 9.svg at the size the old icon used -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
-    android:viewportWidth="292"
-    android:viewportHeight="292">
-    <group
-        android:translateX="28.5"
-        android:translateY="28.5">
-        <path
-            android:pathData="M163.5 96.3493C180.167 105.972 180.167 130.028 163.5 139.651L108 171.694C91.3333 181.316 70.5 169.288 70.5 150.043V85.9569C70.5 66.7119 91.3333 54.6838 108 64.3063L163.5 96.3493Z"
-            android:fillColor="#FFFFFF"
-            android:strokeColor="#212121"
-            android:strokeWidth="19"
-            android:strokeLineJoin="round" />
-        <path
-            android:pathData="M97 112L108.5 98L120 112"
-            android:fillColor="#00000000"
-            android:strokeColor="#212121"
-            android:strokeWidth="11"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round" />
-        <path
-            android:pathData="M110.325 125C111.871 133.439 121.868 148.704 142.944 149.92"
-            android:fillColor="#00000000"
-            android:strokeColor="#212121"
-            android:strokeWidth="11"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round" />
-    </group>
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Minimal L-shaped audio signature, centred for adaptive icon safe zones. -->
+    <path
+        android:fillColor="#FFF7F0"
+        android:pathData="M34,25 C34,22.8 35.8,21 38,21 C40.2,21 42,22.8 42,25 L42,67 C42,69.2 43.8,71 46,71 L71,71 C73.2,71 75,72.8 75,75 C75,77.2 73.2,79 71,79 L46,79 C39.4,79 34,73.6 34,67 Z"/>
+    <path
+        android:fillColor="#FFF7F0"
+        android:pathData="M57,35 C57,32.8 58.8,31 61,31 C63.2,31 65,32.8 65,35 L65,53 C65,55.2 63.2,57 61,57 C58.8,57 57,55.2 57,53 Z"/>
+    <path
+        android:fillColor="#FFF7F0"
+        android:pathData="M72,43 C72,40.8 73.8,39 76,39 C78.2,39 80,40.8 80,43 L80,53 C80,55.2 78.2,57 76,57 C73.8,57 72,55.2 72,53 Z"/>
 </vector>
