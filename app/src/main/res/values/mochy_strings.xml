@@ -530,7 +530,7 @@
     <string name="eq_label_mid">Mids</string>
     <string name="eq_label_treble">Treble</string>
     <string name="eq_preset_flat">Flat</string>
-    <string name="eq_preset_Luna Music_signature">Luna Music Signature</string>
+    <string name="eq_preset_mochy_signature">Luna Music Signature</string>
     <string name="eq_preset_acoustic">Acoustic</string>
     <string name="eq_preset_spatial">3D Stage</string>
     <string name="eq_preset_bass_boost">Bass Boost</string>
@@ -549,7 +549,7 @@
     <string name="eq_preset_dirac_game">Dirac Game</string>
     <string name="eq_enable_title">Luna MusicEqualizer</string>
     <string name="eq_enable_summary">Toggle professional audio processing</string>
-    <string name="eq_label_Luna Music">Luna Music Signature</string>
+    <string name="eq_label_mochy">Luna Music Signature</string>
     <string name="eq_label_dolby">Dolby Atmos</string>
     <string name="eq_label_dirac">Dirac Audio</string>
     <string name="eq_reset">Reset</string>
@@ -567,9 +567,9 @@
     <string name="plays">plays</string>
     <string name="casting_to">Casting to %s</string>
     <string name="progress_percent">Progress %s%%</string>
-    <string name="listening_to_Luna Music">Listening to Luna Music</string>
+    <string name="listening_to_mochy">Listening to Luna Music</string>
     <string name="listen_on_youtube_music">Listen on YouTube Music</string>
-    <string name="visit_Luna Music">Visit Luna Music</string>
+    <string name="visit_mochy">Visit Luna Music</string>
     <string name="open">Open</string>
     <string name="failed_to_create_image">Failed to create image: %s</string>
     <string name="copied_title">Copied Title</string>
@@ -845,9 +845,9 @@
     <string name="discord_rpc_preview">Rich Presence Preview</string>
     <string name="discord_presence">Presence</string>
     <string name="discord_connect_description">Sign in with Discord to share what you\'re listening to</string>
-    <string name="discord_playing_Luna Music">Playing Luna Music</string>
-    <string name="discord_watching_Luna Music">Watching Luna Music</string>
-    <string name="discord_competing_Luna Music">Competing in Luna Music</string>
+    <string name="discord_playing_mochy">Playing Luna Music</string>
+    <string name="discord_watching_mochy">Watching Luna Music</string>
+    <string name="discord_competing_mochy">Competing in Luna Music</string>
     <string name="discord_activity_name">Activity name</string>
     <string name="discord_activity_name_description">Custom name for the activity (leave empty for default)</string>
     <string name="discord_advanced_mode">Advanced mode</string>
