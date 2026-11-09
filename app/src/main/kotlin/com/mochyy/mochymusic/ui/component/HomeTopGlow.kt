@@ -37,7 +37,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlin.math.roundToInt
 
-private const val GlowPeakAlpha = 0.9f
+private const val GlowPeakAlpha = 0.28f
 // how far each corner's glow reaches sideways, so the two meet and blend across the middle
 private const val GlowReachFraction = 0.95f
 private const val GlowStopCount = 12
@@ -151,8 +151,8 @@ private object HomeGlowColor {
             .maxByOrNull { it.population }
             ?: dominant
         val hsl = pick.hsl.copyOf()
-        hsl[1] = hsl[1].coerceAtMost(0.6f)
-        hsl[2] = hsl[2].coerceIn(0.2f, 0.32f)
+        hsl[1] = hsl[1].coerceAtMost(0.28f)
+        hsl[2] = hsl[2].coerceIn(0.12f, 0.2f)
         return ColorUtils.HSLToColor(hsl)
     }
 }
