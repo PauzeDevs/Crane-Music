@@ -1308,7 +1308,7 @@ class MainActivity : ComponentActivity() {
                                         contentAlignment = Alignment.Center
                                     ) {
                                         Text(
-                                            text = "Luna Music · Made by PauzeDevs",
+                                            text = "Luma Music · Made by PauzeDevs",
                                             style = MaterialTheme.typography.labelSmall,
                                             color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.62f)
                                         )
