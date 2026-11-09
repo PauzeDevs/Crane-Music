@@ -24,7 +24,7 @@ import com.materialkolor.dynamiccolor.ColorSpec
 import com.materialkolor.rememberDynamicColorScheme
 import com.materialkolor.score.Score
 
-val DefaultThemeColor = Color(0xFF8E8E8E)
+val DefaultThemeColor = Color(0xFFB8B8B5)
 
 /**
  * Luma Music uses a dark matte palette with restrained neutral accents.
