@@ -12,8 +12,8 @@ import java.io.File
 import java.net.HttpURLConnection
 import java.net.URL
 
-const val GithubOwner = "realidkroo"
-const val GithubRepo = "Mochy-Music"
+const val GithubOwner = "PauzeDevs"
+const val GithubRepo = "Crane-Music"
 
 const val GithubProfileUrl = "https://github.com/$GithubOwner"
 const val GithubRepoUrl = "https://github.com/$GithubOwner/$GithubRepo"
@@ -135,7 +135,7 @@ private suspend fun fetchReleases(): Result<List<ParsedRelease>> = withContext(D
             connectTimeout = 12_000
             readTimeout = 12_000
             setRequestProperty("Accept", "application/vnd.github+json")
-            setRequestProperty("User-Agent", "mochy-android")
+            setRequestProperty("User-Agent", "luma-music-android")
         }
         val json = connection.inputStream.bufferedReader().use { it.readText() }
         val releases = JSONArray(json)
@@ -275,7 +275,7 @@ suspend fun downloadApk(
 }
 
 fun apkFileFor(context: Context, release: GithubRelease): File =
-    File(context.cacheDir, release.apkName ?: "mochy-update.apk")
+    File(context.cacheDir, release.apkName ?: "luma-music-update.apk")
 
 fun isDownloaded(context: Context, release: GithubRelease): Boolean {
     val f = apkFileFor(context, release)
