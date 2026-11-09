@@ -1230,6 +1230,7 @@ class MainActivity : ComponentActivity() {
                                             selectedRoute = com.mochyy.mochymusic.ui.screens.settings.settingsPaneSelection(backStack),
                                         )
                                     }
+                                    Column(modifier = Modifier.weight(1f)) {
                                     NavHost(
                                         navController = navController,
                                         startDestination = when (tabOpenedFromShortcut ?: defaultOpenTab) {
@@ -1299,6 +1300,19 @@ class MainActivity : ComponentActivity() {
                                             activity = this@MainActivity,
                                             snackbarHostState = snackbarHostState
                                         )
+                                    }
+                                    Box(
+                                        modifier = Modifier
+                                            .fillMaxWidth()
+                                            .padding(top = 6.dp, bottom = 8.dp),
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        Text(
+                                            text = "Luna Music · Made by PauzeDevs",
+                                            style = MaterialTheme.typography.labelSmall,
+                                            color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.62f)
+                                        )
+                                    }
                                     }
                                     }
                                     }
