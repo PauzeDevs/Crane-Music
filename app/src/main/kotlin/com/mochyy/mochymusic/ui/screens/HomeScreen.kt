@@ -491,7 +491,7 @@ private val HomeTopBarRise = 16.dp
  */
 @Composable
 private fun HomeShell() {
-    val homeStyle by rememberEnumPreference(HomeStyleKey, defaultValue = HomeStyle.MOCHYY)
+    val homeStyle by rememberEnumPreference(HomeStyleKey, defaultValue = HomeStyle.LISTEN_NOW)
     val profilePicUri by rememberPreference(ProfilePicUriKey, "")
     val profileImageUrl = profilePicUri
         .takeIf { it.isNotBlank() }
