@@ -17,7 +17,7 @@ import com.mochyy.mochymusic.R
 import java.util.Locale
 
 @OptIn(UnstableApi::class)
-class MochyNotificationProvider(
+class LumaNotificationProvider(
     private val context: Context,
     notificationIdProvider: DefaultMediaNotificationProvider.NotificationIdProvider,
     channelId: String,
@@ -31,7 +31,7 @@ class MochyNotificationProvider(
         channelNameResourceId
     )
 
-    fun setSmallIcon(iconResId: Int): MochyNotificationProvider {
+    fun setSmallIcon(iconResId: Int): LumaNotificationProvider {
         defaultProvider.setSmallIcon(iconResId)
         return this
     }
