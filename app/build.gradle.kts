@@ -24,7 +24,7 @@ extensions.configure<ApplicationExtension> {
     ndkVersion = "27.0.12077973"
 
     defaultConfig {
-        applicationId = "com.mochyy.mochymusic"
+        applicationId = "com.pauzedevs.lumamusic"
         minSdk = 24
         targetSdk = 36
         versionCode = 73
