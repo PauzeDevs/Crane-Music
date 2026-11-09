@@ -24,10 +24,10 @@ import com.materialkolor.dynamiccolor.ColorSpec
 import com.materialkolor.rememberDynamicColorScheme
 import com.materialkolor.score.Score
 
-val DefaultThemeColor = Color(0xFF8E8E8E)
+val DefaultThemeColor = Color(0xFFB8B8B5)
 
 /**
- * mochy renders dark-only.
+ * Luma Music uses a dark matte palette with restrained neutral accents.
  *
  * The light palette was never finished - large parts of the UI hardcode white text and dark
  * glass - so on a light-mode phone the app looked broken rather than light. Pinned here as one
@@ -49,21 +49,21 @@ fun MochyTheme(
 
         if (darkTheme) {
             darkColorScheme(
-                primary = Color(0xFFE0E0E0),
+                primary = Color(0xFFF2F2F0),
                 onPrimary = Color.Black,
-                primaryContainer = Color(0xFF333333),
+                primaryContainer = Color(0xFF292A2C),
                 onPrimaryContainer = Color.White,
-                secondary = Color(0xFFB0B0B0),
+                secondary = Color(0xFFB8B8B5),
                 onSecondary = Color.Black,
-                secondaryContainer = Color(0xFF2C2C2C),
+                secondaryContainer = Color(0xFF202123),
                 onSecondaryContainer = Color.White,
-                background = Color.Black,
+                background = Color(0xFF090A0B),
                 onBackground = Color.White,
-                surface = Color.Black,
+                surface = Color(0xFF0D0E10),
                 onSurface = Color.White,
-                surfaceVariant = Color(0xFF1A1A1A),
+                surfaceVariant = Color(0xFF191A1C),
                 onSurfaceVariant = Color.White,
-                surfaceTint = Color.Black
+                surfaceTint = Color(0xFF0D0E10)
             )
         } else {
             lightColorScheme(

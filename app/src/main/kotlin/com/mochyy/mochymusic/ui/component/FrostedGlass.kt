@@ -32,18 +32,18 @@ import com.mochyy.mochymusic.utils.rememberPreference
  */
 
 /** How much of the chrome colour covers the blurred app. */
-private const val FrostTintAlpha = 0.78f
+private const val FrostTintAlpha = 0.86f
 
 /** The hairline is 2 real pixels on every screen, not 2dp: any thicker and it reads as a border. */
-private const val ChromeOutlineWidthPx = 2f
-private val ChromeOutlineColor = Color.White.copy(alpha = 0.05f)
+private const val ChromeOutlineWidthPx = 1.5f
+private val ChromeOutlineColor = Color.White.copy(alpha = 0.07f)
 private val ChromeOutlineStroke = Stroke(ChromeOutlineWidthPx)
 
 /** Lifts the chrome off a light page without looking like a dark halo on a black one. */
 val ChromeShadow = Shadow(radius = 6.3.dp, color = Color.Black.copy(alpha = 0.12f), spread = 2.dp)
 
 /** The lit tab's pill in the nav bar, and the round press behind the mini player's buttons. */
-val ChromeHighlightColor = Color.White.copy(alpha = 0.1f)
+val ChromeHighlightColor = Color.White.copy(alpha = 0.075f)
 
 /**
  * A faint grain over the glass. A dark blur only has a few shades to work with, so without it the

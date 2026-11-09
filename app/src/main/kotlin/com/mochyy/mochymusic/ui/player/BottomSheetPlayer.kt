@@ -376,7 +376,7 @@ private fun PlayerSheet(
     val landscapeFlagship = playerStyle.flagshipFamily && landscapeWindow
     // each flagship keeps its own background, the new one starting on the moving colours it was made with
     var classicBackground by rememberEnumPreference(PlayerBackgroundStyleKey, PlayerBackgroundStyle.COVER_GRADIENT)
-    var flagshipBackground by rememberEnumPreference(FlagshipBackgroundStyleKey, PlayerBackgroundStyle.AMBIENT)
+    var flagshipBackground by rememberEnumPreference(FlagshipBackgroundStyleKey, PlayerBackgroundStyle.DARK_GRADIENT)
     val backgroundStyle = if (isFlagship) flagshipBackground else classicBackground
     var transportLayout by rememberEnumPreference(FlagshipTransportLayoutKey, FlagshipTransportLayout.THREE)
     // the colours the new flagship's backdrop and cover fade drift between
