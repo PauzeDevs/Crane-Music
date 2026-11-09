@@ -185,13 +185,13 @@ fun Modifier.glassRoot(state: GlassState, isActive: () -> Boolean = { true }): M
  * with white icons over a white hairline border, so they are meant to read as dark glass. The
  * shade is the Figma's.
  */
-val GlassChromeColor = Color(0xFF131313)
+val GlassChromeColor = Color(0xFF171819)
 
 /** Backdrop blur for that chrome, heavier than the 24f default so it reads as properly frosted. */
 const val GlassChromeBlurRadius = 48f
 
 /** how strongly a coloured page's accent washes over the chrome glass, over its usual dark tint */
-private const val ChromeAccentWash = 0.55f
+private const val ChromeAccentWash = 0.12f
 
 /**
  * the open page's accent (a coloured playlist or artist) as a wash for the nav pill and the mini
