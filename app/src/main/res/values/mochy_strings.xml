@@ -103,8 +103,8 @@
     <string name="thumbnail_corner_radius_desc">Change the corner radius of the album cover thumbnail</string>
     <string name="crop_album_art">Crop Album Art</string>
     <string name="crop_album_art_desc">Force a square aspect ratio by cropping video thumbnails</string>
-    <string name="Luna Music_canvas">Canvas</string>
-    <string name="Luna Music_canvas_desc">Show animated album covers when available</string>
+    <string name="mochy_canvas">Canvas</string>
+    <string name="mochy_canvas_desc">Show animated album covers when available</string>
     <string name="show_album_canvas">Show Album Canvas</string>
     <string name="show_album_canvas_desc">Display animated canvas in album</string>
     <string name="rotating_thumbnail">Rotating thumbnail</string>
@@ -449,7 +449,7 @@
     <string name="karaoke">Karaoke</string>
     <string name="apple_music_style">Apple Music</string>
     <string name="apple_music_style_letter">Apple Music V2 (Letter by Letter)</string>
-    <string name="Luna Music_1">Luna Music (Fluid)</string>
+    <string name="mochy_1">Luna Music (Fluid)</string>
     <string name="apple_music_lyrics_blur">Apple Music Lyrics Blur</string>
     <string name="apple_music_lyrics_blur_desc">Apply blur to inactive lyrics lines for a premium focus effect</string>
     <string name="lyrics_v2_fluid">Lyrics V2 (Fluid)</string>
@@ -491,7 +491,7 @@
     <string name="wrapped_ready_title">YOUR WRAPPED IS READY!</string>
     <string name="wrapped_ready_subtitle">Time to see what you loved this year.</string>
     <string name="wrapped_thank_you">Thank you for listening</string>
-    <string name="wrapped_special_thanks">Special thanks to Luna Musicdh for creating Luna Music</string>
+    <string name="wrapped_special_thanks">Special thanks to the original Mochy Music developer for creating the upstream project</string>
     <string name="wrapped_close">Close wrapped</string>
     <string name="wrapped_playlist_title">Your %s Wrapped</string>
     <string name="wrapped_create_playlist">Create playlist</string>
@@ -522,8 +522,8 @@
     <string name="error_eq_apply_failed">Failed to apply EQ profile: %1$s</string>
 
     <!-- Luna MusicEqualizer Strings -->
-    <string name="Luna Music_equalizer">Luna MusicEqualizer</string>
-    <string name="Luna Music_equalizer_desc">Pro-grade acoustic tuning &amp; effects</string>
+    <string name="mochy_equalizer">Luna MusicEqualizer</string>
+    <string name="mochy_equalizer_desc">Pro-grade acoustic tuning &amp; effects</string>
     <string name="eq_simple">Simple</string>
     <string name="eq_advanced">Advanced</string>
     <string name="eq_label_bass">Bass</string>
