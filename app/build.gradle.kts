@@ -19,7 +19,7 @@ plugins {
 }
 
 extensions.configure<ApplicationExtension> {
-    namespace = "com.Luna Musicy.Luna Musicmusic"
+    namespace = "com.mochyy.mochymusic"
     compileSdk = 36
     ndkVersion = "27.0.12077973"
 
@@ -59,7 +59,7 @@ extensions.configure<ApplicationExtension> {
             ?: System.getenv("DISCORD_CLIENT_ID") ?: ""
         buildConfigField("String", "DISCORD_CLIENT_ID", "\"$discordClientId\"")
         manifestPlaceholders["discordRedirectScheme"] =
-            if (discordClientId.isNotBlank()) "discord-$discordClientId" else "Luna Music-discord-unset"
+            if (discordClientId.isNotBlank()) "discord-$discordClientId" else "luna-discord-unset"
 
 //add nightly build label support
         val isNightly = project.hasProperty("nightly") && project.property("nightly") == "true"
