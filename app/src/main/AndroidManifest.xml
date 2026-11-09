@@ -46,7 +46,7 @@
         </intent>
         <!-- source modules installed as their own app (modules/SourceModules.kt) -->
         <intent>
-            <action android:name="com.Luna Musicy.Luna Musicmusic.SOURCE_MODULE" />
+            <action android:name="com.mochyy.mochymusic.SOURCE_MODULE" />
         </intent>
         <!-- the song share sends straight to these three -->
         <package android:name="com.instagram.android" />
@@ -67,7 +67,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
-        android:theme="@style/Theme.Luna Music"
+        android:theme="@style/Theme.mochy"
         tools:targetApi="tiramisu">
         <uses-library
             android:name="org.apache.http.legacy"
@@ -76,7 +76,7 @@
         <activity
             android:name=".ui.screens.CrashActivity"
             android:exported="false"
-            android:theme="@style/Theme.Luna Music"
+            android:theme="@style/Theme.mochy"
             android:excludeFromRecents="true"
             android:process=":crash" />
 
@@ -86,7 +86,7 @@
             android:exported="true"
             android:launchMode="singleTask"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation|uiMode"
-            android:theme="@style/Theme.Luna Music"
+            android:theme="@style/Theme.mochy"
             android:windowSoftInputMode="adjustNothing">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -1090,9 +1090,9 @@
             android:label="@string/widget_music_player">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.Luna Musicy.Luna Musicmusic.widget.PLAY_PAUSE" />
-                <action android:name="com.Luna Musicy.Luna Musicmusic.widget.LIKE" />
-                <action android:name="com.Luna Musicy.Luna Musicmusic.widget.UPDATE_WIDGET" />
+                <action android:name="com.mochyy.mochymusic.widget.PLAY_PAUSE" />
+                <action android:name="com.mochyy.mochymusic.widget.LIKE" />
+                <action android:name="com.mochyy.mochymusic.widget.UPDATE_WIDGET" />
             </intent-filter>
 
             <meta-data
@@ -1107,9 +1107,9 @@
             android:label="@string/widget_turntable">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.Luna Musicy.Luna Musicmusic.widget.TURNTABLE_PLAY_PAUSE" />
-                <action android:name="com.Luna Musicy.Luna Musicmusic.widget.TURNTABLE_LIKE" />
-                <action android:name="com.Luna Musicy.Luna Musicmusic.widget.UPDATE_TURNTABLE_WIDGET" />
+                <action android:name="com.mochyy.mochymusic.widget.TURNTABLE_PLAY_PAUSE" />
+                <action android:name="com.mochyy.mochymusic.widget.TURNTABLE_LIKE" />
+                <action android:name="com.mochyy.mochymusic.widget.UPDATE_TURNTABLE_WIDGET" />
             </intent-filter>
 
             <meta-data
@@ -1120,7 +1120,7 @@
         <!-- Google Cast Options Provider -->
         <meta-data
             android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
-            android:value="com.Luna Musicy.Luna Musicmusic.cast.CastOptionsProvider" />
+            android:value="com.mochyy.mochymusic.cast.CastOptionsProvider" />
     </application>
 
 </manifest>
